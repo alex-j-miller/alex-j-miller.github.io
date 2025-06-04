@@ -16,6 +16,20 @@ const Hero = () => {
   const randomGreeting =
     greetings[Math.floor(Math.random() * greetings.length)];
 
+  const quotes = [
+    '"The only way to do great work is to love what you do." – Steve Jobs',
+    '"The best way to predict the future is to invent it." – Alan Kay',
+    "\"The most damaging phrase in the language is: 'It's always been done that way.'\" – Grace Hopper",
+    "“Stay hungry, stay foolish.” – Steve Jobs",
+    "“Learn continually. There’s always ‘one more thing’ to learn.” – Steve Jobs",
+    "“Weeks of programming can save you hours of planning.”",
+    "“Those who can imagine anything, can create the impossible.” – Alan Turing",
+    "“Sometimes it is the people no one can imagine anything of who do the things no one can imagine.” – Alan Turing",
+    "“A ship in port is safe, but that's not what ships are built for.” – Grace Hopper",
+    "“You don’t understand anything until you learn it more than one way.” – Marvin Minsky",
+  ];
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
   return (
     <section id="home" className="hero">
       <div className="container">
@@ -26,11 +40,7 @@ const Hero = () => {
               <span className="text-gradient">Alex Miller</span>
             </h1>
             <h2 className="hero-subtitle">Software Developer</h2>
-            <p className="hero-description">
-              I'm passionate about creating innovative solutions and building
-              amazing user experiences with modern technologies. Welcome to my
-              digital portfolio.
-            </p>
+            <p className="hero-description">{randomQuote}</p>
             <div className="hero-buttons">
               <a href="#contact" className="btn btn-primary">
                 <FontAwesomeIcon icon={faEnvelope} />

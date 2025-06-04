@@ -2,8 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCode,
-  faLaptopCode,
-  faMobile,
+  faServer,
   faDatabase,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -12,7 +11,7 @@ const About = () => {
     title: "Passionate Developer",
     paragraphs: [
       "I'm a dedicated software developer with a passion for creating innovative solutions and exceptional user experiences. With expertise in modern web technologies, I enjoy tackling complex problems and turning ideas into reality.",
-      "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
+      "When I'm not coding, you can find me hanging out with friends, playing tennis or pickleball, or exploring the latest tech trends. I believe in continuous learning and strive to stay updated with the ever-evolving tech landscape.",
     ],
   };
 
@@ -57,22 +56,17 @@ const About = () => {
     {
       icon: faCode,
       title: "Frontend Development",
-      description: "React, JavaScript, HTML5, CSS3, TypeScript",
+      description: "React, TypeScript, JavaScript, HTML, CSS",
     },
     {
-      icon: faLaptopCode,
+      icon: faServer,
       title: "Backend Development",
-      description: "Node.js, Python, Express, REST APIs",
-    },
-    {
-      icon: faMobile,
-      title: "Mobile Development",
-      description: "React Native, Flutter, iOS, Android",
+      description: "Node.js, Express, REST APIs, Firebase Functions",
     },
     {
       icon: faDatabase,
-      title: "Database & Cloud",
-      description: "MongoDB, PostgreSQL, AWS, Firebase",
+      title: "Data & Integration",
+      description: "PostgreSQL, Firebase, NoSQL Design",
     },
   ];
 

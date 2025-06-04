@@ -5,6 +5,7 @@ import {
   faCalendar,
   faAward,
 } from "@fortawesome/free-solid-svg-icons";
+import "./Education.css";
 
 const Education = () => {
   const education = [
@@ -20,7 +21,7 @@ const Education = () => {
       achievements: [
         "Helped classmates debug code and understand CS concepts across multiple courses",
         "Led development of a full-stack app for tracking Calvin's swim team stats",
-        "Participated in Calvin’s CS club (Abstraction) and Google Developer Student Club (GDSC)",
+        "Participated in Calvin's CS club (Abstraction) and Google Developer Student Club (GDSC)",
       ],
     },
   ];
@@ -154,13 +155,26 @@ const Education = () => {
             {certifications.map((cert, index) => (
               <div key={index} className="card">
                 <div
-                  style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "1rem",
+                    justifyContent: "center",
+                    height: "100%",
+                  }}
                 >
                   <FontAwesomeIcon
                     icon={faAward}
                     style={{ fontSize: "1.5rem", color: "#8b5cf6" }}
                   />
-                  <span style={{ color: "#ffffff", fontSize: "1.1rem" }}>
+                  <span
+                    // className="center"
+                    style={{
+                      color: "#ffffff",
+                      fontSize: "1.1rem",
+                      // padding: "0.5rem",
+                    }}
+                  >
                     {cert}
                   </span>
                 </div>
