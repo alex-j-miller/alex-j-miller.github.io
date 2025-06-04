@@ -1,0 +1,37 @@
+.certifications-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.certification-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #18181b;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1rem 2rem;
+  min-width: 220px;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+.certification-icon {
+  font-size: 1.5rem;
+  color: #8b5cf6;
+}
+
+.certification-name {
+  color: #ffffff;
+  font-size: 1.1rem;
+  white-space: normal;
+}
+
+.certifications-title {
+  font-size: 2.3rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+}

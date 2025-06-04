@@ -139,31 +139,12 @@ const Education = () => {
           ))}
         </div>
 
-        <div style={{ marginTop: "4rem" }}>
-          <h3
-            style={{
-              fontSize: "2rem",
-              color: "#ffffff",
-              marginBottom: "2rem",
-              textAlign: "center",
-            }}
-          >
-            Certifications
-          </h3>
-          <div className="grid grid-2">
+        <div className="certifications-section">
+          <h3 className="certifications-title">Certifications</h3>
+          <div className="certifications-list">
             {certifications.map((cert, index) => (
-              <div key={index} className="card">
-                <div
-                  style={{ display: "flex", alignItems: "center", gap: "1rem" }}
-                >
-                  <FontAwesomeIcon
-                    icon={faAward}
-                    style={{ fontSize: "1.5rem", color: "#8b5cf6" }}
-                  />
-                  <span style={{ color: "#ffffff", fontSize: "1.1rem" }}>
-                    {cert}
-                  </span>
-                </div>
+              <div key={index} className="card certification-card">
+                <span className="certification-name">{cert}</span>
               </div>
             ))}
           </div>
