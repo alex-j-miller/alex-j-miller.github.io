@@ -188,6 +188,18 @@ const Footer = () => {
               >
                 amiller192003@gmail.com
               </a>
+              <a
+                href="tel:6168434054"
+                style={{
+                  color: "#a1a1aa",
+                  textDecoration: "none",
+                  transition: "color 0.3s ease",
+                }}
+                onMouseEnter={(e) => (e.target.style.color = "#3b82f6")}
+                onMouseLeave={(e) => (e.target.style.color = "#a1a1aa")}
+              >
+                616-843-4054
+              </a>
               <span style={{ color: "#a1a1aa" }}>Grand Rapids, MI</span>
             </div>
           </div>

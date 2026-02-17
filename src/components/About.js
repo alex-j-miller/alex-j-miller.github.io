@@ -8,48 +8,35 @@ import {
 
 const About = () => {
   const passionateDevText = {
-    title: "Passionate Developer",
+    title: "Professional Profile",
     paragraphs: [
-      "I'm a dedicated software developer with a passion for creating innovative solutions and exceptional user experiences. With expertise in modern web technologies, I enjoy tackling complex problems and turning ideas into reality.",
-      "When I'm not coding, you can find me hanging out with friends, playing tennis or pickleball, or exploring the latest tech trends. I believe in continuous learning and strive to stay updated with the ever-evolving tech landscape.",
+      "Junior Software Developer with hands-on experience building and maintaining production software for statewide educational platforms serving Michigan school districts. Proficient in full-stack development across modern frameworks including React, Angular, Ember, and .NET Core, with demonstrated ability to rapidly learn new technology stacks and contribute production-ready code. Skilled at implementing automated testing infrastructure and CI/CD workflows that improve code reliability and deployment confidence.",
+      "Known for identifying inefficiencies and building practical solutions that save time for end users and development teams alike. Collaborative team member experienced with Agile methodologies, code reviews, and cross-functional communication in professional software development environments.",
     ],
   };
 
   const technicalSkills = [
-    // Frontend Frameworks & Libraries
+    "JavaScript",
+    "TypeScript",
     "React",
     "React Native",
+    "Node.js",
+    "Express",
+    "Cypress",
+    "Jest Testing",
+    "Python",
+    "SQL",
     "Angular",
     "Ember.js",
-
-    // Backend & Full Stack
-    ".NET",
-    "Firebase",
-    "Docker",
-    "Azure",
-
-    // Languages
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "Java",
-    "C#",
-    "C++",
-
-    // Web Fundamentals
-    "HTML",
-    "CSS",
-
-    // Databases
-    "PostgreSQL",
-    "SQL",
-    "NoSQL",
-
-    // Testing & Dev Tools
-    "Jest",
-    "Cypress.io",
+    "GraphQL",
+    "REST APIs",
     "Git",
-    "GitHub",
+    "GitHub Actions",
+    "Full-Stack Development",
+    ".NET Core",
+    "PostgreSQL",
+    "Firestore",
+    "Agile Development",
   ];
 
   const skills = [

@@ -1,0 +1,70 @@
+:root{
+  --accent: #3b82f6;
+}
+.contact-intro{
+  color:#a1a1aa;
+  font-size:1.05rem;
+  margin:0 auto 2.5rem;
+  max-width:700px;
+  text-align:center;
+}
+.contact-panel{
+  max-width:820px;
+  margin:0 auto;
+  text-align:left;
+}
+.contact-panel-title{
+  color:var(--accent);
+  text-align:center;
+  font-size:1.35rem;
+  margin-bottom:1rem;
+}
+.contact-cards{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+  margin-top:0.5rem;
+}
+.contact-card{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  padding:1rem 1.25rem;
+  background:rgba(255,255,255,0.02);
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.06);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.contact-card:hover{
+  transform:translateY(-6px);
+  border-color:var(--accent);
+  box-shadow:0 12px 30px rgba(59,130,246,0.06);
+}
+.contact-icon{
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:radial-gradient(rgba(59,130,246,0.12), rgba(59,130,246,0.04));
+  border:1px solid rgba(59,130,246,0.18);
+  color:var(--accent);
+  font-size:1.25rem;
+  flex-shrink:0;
+}
+.contact-text{flex:1}
+.contact-info-title{color:#fff;margin:0;font-size:1.05rem;font-weight:700}
+.contact-info-value a, .contact-info-value span{color:#a1a1aa;text-decoration:none;font-size:0.95rem;display:block}
+.contact-info-value a:hover{color:var(--accent);text-decoration:underline}
+.social-links{display:flex;gap:1rem;justify-content:center;margin-top:0.5rem}
+.social-btn{
+  width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);color:#a1a1aa;text-decoration:none;transition:transform .18s,background .18s,box-shadow .18s; font-size:1.1rem;
+}
+.social-btn:hover{transform:translateY(-6px);background:var(--social-color);color:#fff;box-shadow:0 12px 30px rgba(0,0,0,0.12)}
+
+@media (max-width:640px){
+  .contact-card{padding:0.75rem}
+  .contact-icon{width:52px;height:52px}
+  .contact-panel{padding:0 1rem}
+}

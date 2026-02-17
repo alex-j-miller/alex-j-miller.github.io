@@ -46,7 +46,7 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faEnvelope} />
                 Get In Touch
               </a>
-              <a href="/resume.pdf" className="btn btn-secondary" download>
+              <a href="/Alex-Miller-Resume.pdf" className="btn btn-secondary" download>
                 <FontAwesomeIcon icon={faDownload} />
                 Download CV
               </a>
