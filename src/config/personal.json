@@ -1,0 +1,181 @@
+{
+  "user": {
+    "name": "Alex Miller",
+    "title": "Junior Software Developer",
+    "username": "alex",
+    "hostname": "portfolio",
+    "email": "amiller192003@gmail.com",
+    "github": "https://github.com/alex-j-miller",
+    "linkedin": "https://www.linkedin.com/in/alex-jacob-miller/",
+    "bio": [
+      "Junior Software Developer with hands-on experience building and maintaining production software for statewide educational platforms serving Michigan school districts.",
+      "Proficient in full-stack development across modern frameworks including React, Angular, Ember, and .NET Core, with demonstrated ability to rapidly learn new technology stacks and contribute production-ready code.",
+      "Skilled at implementing automated testing infrastructure and CI/CD workflows that improve code reliability and deployment confidence.",
+      "Known for identifying inefficiencies and building practical solutions that save time for end users and development teams alike.",
+      "Collaborative team member experienced with Agile methodologies, code reviews, and cross-functional communication in professional software development environments.",
+      "",
+      "Type 'help' to see available commands, or 'projects' to see my work."
+    ]
+  },
+  "projects": [
+    {
+      "id": "commit",
+      "name": "Commit",
+      "description": "React Native habit-building mobile app with friend systems, smart alarms, study timers, and progress dashboards. Node.js/Express backend with PostgreSQL. Led debugging and authored updated Express tutorial for the team.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "demo": null,
+      "repo": "https://github.com/orgs/calvin-cs262-takeitEasy/repositories"
+    },
+    {
+      "id": "led-wall-matrix",
+      "name": "LED Wall Matrix Display Library",
+      "description": "Python library and hardware configuration for interactive LED matrix display. Abstraction methods for graphics, simulation mode, and performance optimization from <1 FPS to >100 FPS.",
+      "stack": [
+        "Python",
+        "Hardware"
+      ],
+      "demo": null,
+      "repo": "https://github.com/orgs/LEDwallSeniorProject/repositories"
+    },
+    {
+      "id": "rupps-recipes",
+      "name": "Rupp's Recipes",
+      "description": "Angular website with Google Firestore backend to digitize and share family recipes. Category-based organization and live deployment for ongoing family use.",
+      "stack": [
+        "Angular",
+        "Firestore"
+      ],
+      "demo": "https://alex-j-miller.github.io/rupps-recipes",
+      "repo": "https://github.com/alex-j-miller/rupps-recipes"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "C#" 
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "React Native",
+        "Angular",
+        "Ember.js"
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "Express",
+        ".NET Core",
+        "PostgreSQL",
+        "Firestore"
+      ]
+    },
+    {
+      "category": "Testing",
+      "items": [
+        "Cypress",
+        "Jest"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Git",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "category": "Concepts",
+      "items": [
+        "GraphQL",
+        "REST APIs",
+        "Full-Stack Development",
+        "Agile Development",
+        "CI/CD"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Application Developer Intern",
+      "company": "Ottawa Area Intermediate School District",
+      "location": "Michigan, USA",
+      "period": "2024 - Present",
+      "highlights": [
+        "Built automated testing infrastructure from the ground up for the MiSafeStudent safety reporting platform, implementing end-to-end tests with Cypress and integration tests with Jest. Collaborated with a fellow developer to prioritize core functionality testing before expanding to feature coverage. Established testing practices that became team standard, with every developer now required to add tests for each pull request.",
+        "Developed a user permission management feature enabling Michigan Department of Education administrators to modify district-level user access without developer intervention. Identified the inefficiency where developers were repeatedly handling routine permission updates and designed a self-service solution. Eliminated recurring developer workload while accelerating the permission update process for administrative users.",
+        "Led the first page migration from GraphQL to REST API as part of a platform-wide architecture transition for MICIP, a statewide school improvement platform serving about 900 Michigan districts. Analyzed existing GraphQL queries and redesigned data flows to align with REST conventions. Delivered a working template that established patterns for subsequent page migrations across the application.",
+        "Implemented navigation bar components throughout the MICIP application to guide users through multi-step workflows. Designed the navigation logic to ensure users followed steps in the correct sequence while maintaining easy access to previous sections. Improved overall user experience and reduced workflow abandonment across the platform.",
+        "Progressed from onboarding to contributing production code within about 3 weeks despite encountering an unfamiliar technology stack including Ember, GraphQL, and .NET Core. Utilized a structured approach combining documentation review, codebase exploration, and peer programming sessions with senior developers. Updated developer onboarding documentation to reflect current practices, enabling more efficient ramp-up for future team members.",
+        "Integrated automated tests into the CI/CD pipeline, requiring all code to pass the test suite before merging to the main development branch. Configured GitHub Actions to execute tests on every pull request. Enabled the team to deploy with greater confidence while catching bugs before they reached production."
+      ]
+    },
+    {
+      "role": "Summer Field Technician",
+      "company": "Ottawa Area Intermediate School District",
+      "location": "Michigan, USA",
+      "period": "2021 - 2024",
+      "highlights": [
+        "Developed an automation tool using Google Apps Script to geolocate IP addresses from failed login attempts across school district Google accounts, enabling security threat identification. Built the solution on Google Sheets, integrating with external APIs to process IP address lists automatically. Saved tech leads roughly 2 hours of manual work every couple weeks across Spring Lake, Oakridge, WMAA, and Holland school districts.",
+        "Managed technology operations across over 5K devices including Chromebooks, desktops, and classroom technology for 7 school districts within the ISD consortium. Collaborated with a team of up to 5 technicians to coordinate device imaging, configuration, troubleshooting, and deployments, ensuring classroom readiness before each school year. Maintained asset and repair tracking systems for long-term accountability and planning.",
+        "Served as one of the project leads for classroom sound system installations across multiple school buildings. Coordinated technology upgrade planning and execution including WAP replacements, Chromebook rollouts, and desktop SSD upgrades. Delivered large-scale transitions with minimal disruption to classroom instruction."
+      ]
+    }
+  ],
+  "resumeUrl": "/resume.pdf",
+  "manPage": [
+    "ALEX(1)                    Developer Manual                    ALEX(1)",
+    "",
+    "NAME",
+    "       alex - junior software developer",
+    "",
+    "SYNOPSIS",
+    "       alex [--hire] [--coffee] [--projects]",
+    "",
+    "DESCRIPTION",
+    "       Junior Software Developer with hands-on experience building and maintaining production software for statewide educational platforms serving Michigan school districts.",
+    "       Proficient in full-stack development across modern frameworks including React, Angular, Ember, and .NET Core, with demonstrated ability to rapidly learn new technology stacks and contribute production-ready code.",
+    "       Skilled at implementing automated testing infrastructure and CI/CD workflows that improve code reliability and deployment confidence.",
+    "       Known for identifying inefficiencies and building practical solutions that save time for end users and development teams alike.",
+    "       Collaborative team member experienced with Agile methodologies, code reviews, and cross-functional communication in professional software development environments.",
+    "",
+    "OPTIONS",
+    "       --hire     Send an offer (highly recommended)",
+    "       --coffee   Required for optimal performance",
+    "       --projects List all projects (see 'projects' command)",
+    "",
+    "ENVIRONMENT",
+    "       EDITOR=vscode",
+    "       SHELL=/bin/zsh",
+    "       COFFEE=always",
+    "",
+    "CERTIFICATIONS",
+    "       CompTIA A+ | CompTIA IT Fundamentals+ | Microsoft Technology Associate: Networking Fundamentals",
+    "       BigQuery Basics for Data Analysts — Google | Social and Behavioral Research — CITI Program",
+    "",
+    "SEE ALSO",
+    "       about(1), projects(1), skills(1), experience(1), download(1)",
+    "",
+    "BUGS",
+    "       Occasionally mass-produces side projects. This is a feature.",
+    "",
+    "AUTHOR",
+    "       Alex Miller <amiller192003@gmail.com>",
+    "",
+    "alexOS                       YYYY-MM-DD                        ALEX(1)"
+  ]
+}

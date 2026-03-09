@@ -1,0 +1,28 @@
+{
+  "filesystem": {
+    "~": {
+      "type": "dir",
+      "children": {
+        "about.txt": { "type": "file", "content": "bio" },
+        "projects": {
+          "type": "dir",
+          "children": {
+            "commit.md": { "type": "file", "content": "project:commit" },
+            "led-wall-matrix.md": { "type": "file", "content": "project:led-wall-matrix" },
+            "rupps-recipes.md": { "type": "file", "content": "project:rupps-recipes" }
+          }
+        },
+        "skills.txt": { "type": "file", "content": "skills" },
+        "experience.txt": { "type": "file", "content": "experience" },
+        "resume.pdf": { "type": "file", "content": "resume" },
+        "contact.txt": { "type": "file", "content": "contact" },
+        ".secrets": {
+          "type": "dir",
+          "children": {
+            "easter-eggs.txt": { "type": "file", "content": "You found the secret directory! Try: sudo hire alex, coffee, matrix" }
+          }
+        }
+      }
+    }
+  }
+}

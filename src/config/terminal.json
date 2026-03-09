@@ -1,0 +1,68 @@
+{
+  "bootMessages": [
+    { "text": "Booting alexOS v2.0.26...", "delay": 400 },
+    { "text": "", "delay": 200 },
+    { "text": "Loading kernel modules........... OK", "delay": 600 },
+    { "text": "Mounting virtual filesystem....... OK", "delay": 500 },
+    { "text": "Loading experience modules....... OK", "delay": 450 },
+    { "text": "Loading project database......... OK", "delay": 500 },
+    { "text": "Initializing skills matrix....... OK", "delay": 400 },
+    { "text": "Loading coffee dependency........ OK", "delay": 550 },
+    { "text": "Configuring terminal emulator.... OK", "delay": 400 },
+    { "text": "", "delay": 200 },
+    { "text": "System ready.", "delay": 300 },
+    { "text": "", "delay": 500 }
+  ],
+  "themes": {
+    "default": {
+      "bg": "#0a0e14",
+      "fg": "#b3b1ad",
+      "prompt": "#39bae6",
+      "accent": "#ffb454",
+      "error": "#ff3333",
+      "success": "#c2d94c",
+      "selection": "#1a1f29"
+    },
+    "matrix": {
+      "bg": "#000000",
+      "fg": "#00ff00",
+      "prompt": "#00cc00",
+      "accent": "#00ff00",
+      "error": "#ff0000",
+      "success": "#00ff00",
+      "selection": "#003300"
+    },
+    "dracula": {
+      "bg": "#282a36",
+      "fg": "#f8f8f2",
+      "prompt": "#bd93f9",
+      "accent": "#ff79c6",
+      "error": "#ff5555",
+      "success": "#50fa7b",
+      "selection": "#44475a"
+    },
+    "solarized": {
+      "bg": "#002b36",
+      "fg": "#839496",
+      "prompt": "#268bd2",
+      "accent": "#b58900",
+      "error": "#dc322f",
+      "success": "#859900",
+      "selection": "#073642"
+    }
+  },
+  "terminalWelcome": [
+    "Welcome to alexOS. Type 'help' to get started.",
+    "If you are a recruiter, type 'recruiter' for buttons.",
+    ""
+  ],
+  "welcomeAscii": [
+    " █████╗ ██╗     ███████╗██╗  ██╗ ██████╗ ███████╗",
+    "██╔══██╗██║     ██╔════╝╚██╗██╔╝██╔═══██╗██╔════╝",
+    "███████║██║     █████╗   ╚███╔╝ ██║   ██║███████╗",
+    "██╔══██║██║     ██╔══╝   ██╔██╗ ██║   ██║╚════██║",
+    "██║  ██║███████╗███████╗██╔╝ ██╗╚██████╔╝███████║",
+    "╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝",
+    ""
+  ]
+}

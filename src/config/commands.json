@@ -1,0 +1,76 @@
+{
+  "hiddenCommands": {
+    "sudo hire alex": {
+      "output": [
+        "",
+        "  Permission granted.",
+        "",
+        "  Sending offer letter to Alex Miller...",
+        "  Configuring onboarding pipeline...",
+        "  Allocating standing desk...",
+        "",
+        "  Welcome aboard!",
+        ""
+      ]
+    },
+    "42": {
+      "output": [
+        "",
+        "  The Answer to the Ultimate Question of Life,",
+        "  the Universe, and Everything.",
+        ""
+      ]
+    },
+    "vim": {
+      "output": [
+        "",
+        "  You are now trapped in Vim.",
+        "  Just kidding. But seriously, hire Alex. He uses VS Code.",
+        "  (Type :q! to exit... oh wait, this isn't Vim.)",
+        ""
+      ]
+    }
+  },
+  "commandDescriptions": {
+    "help": "Display available commands. Usage: help [command]",
+    "about": "Display information about Alex Miller",
+    "projects": "List all projects. Usage: projects [--detail]",
+    "skills": "Display technical skills",
+    "experience": "Display professional experience",
+    "ls": "List directory contents. Usage: ls [path]",
+    "cd": "Change directory. Usage: cd <path>",
+    "cat": "Display file contents. Usage: cat <filename>",
+    "pwd": "Print working directory",
+    "open": "View project details with ASCII art. Usage: open <project>",
+    "run": "Open project demo in browser. Usage: run <project>",
+    "grep": "Filter output. Usage: <command> | grep <pattern>",
+    "history": "Show command history",
+    "man": "Display manual page. Usage: man alex",
+    "which": "Show the path of a command. Usage: which alex",
+    "download": "Download a file. Usage: download resume",
+    "recruiter": "Enter recruiter-friendly mode",
+    "clear": "Clear the terminal screen",
+    "echo": "Print text to terminal. Usage: echo <text>",
+    "whoami": "Display current user",
+    "date": "Display current date and time",
+    "exit": "Nice try. There is no escape.",
+    "theme": "Change terminal color theme. Usage: theme <name>",
+    "github": "Show cached GitHub repository data. Usage: github repos"
+  },
+  "commandCategories": {
+    "About": ["help", "about", "man", "whoami"],
+    "Portfolio": ["projects", "open", "run", "skills", "experience"],
+    "Filesystem": ["ls", "cd", "pwd", "cat"],
+    "Terminal": ["clear", "echo", "date", "theme"],
+    "Utilities": ["history", "download", "recruiter", "which", "github"],
+    "Other": ["grep", "exit"]
+  },
+  "aliases": {
+    "ll": "ls -la",
+    "la": "ls -a",
+    "cls": "clear",
+    "resume": "download resume",
+    "hi": "about",
+    "hello": "about"
+  }
+}
