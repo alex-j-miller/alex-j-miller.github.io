@@ -4,6 +4,15 @@ import { VirtualFileSystem } from '../filesystem/virtualFileSystem';
 import Fuse from 'fuse.js';
 import { getGithubRepos, type GithubRepo } from '../api/github';
 
+function resolvePublicAssetUrl(path: string): string {
+  if (/^https?:\/\//i.test(path)) {
+    return path;
+  }
+
+  const normalized = path.startsWith('/') ? path.slice(1) : path;
+  return `${import.meta.env.BASE_URL}${normalized}`;
+}
+
 export class CommandRegistry {
   private commands = new Map<string, CommandHandler>();
   private config: Config;
@@ -410,15 +419,16 @@ export class CommandRegistry {
         return { output: ['Usage: download resume'], isError: true };
       }
       // Trigger download
+      const resumeUrl = resolvePublicAssetUrl(ctx.config.resumeUrl);
       const link = document.createElement('a');
-      link.href = ctx.config.resumeUrl;
+      link.href = resumeUrl;
       link.download = 'Alex_Miller_Resume.pdf';
       link.click();
       return {
         output: [
           '',
           '  📄 Downloading resume...',
-          `  File: ${ctx.config.resumeUrl}`,
+          `  File: ${resumeUrl}`,
           '',
         ],
       };

@@ -48,8 +48,24 @@ npm run preview
 ### Lint
 
 ```bash
-npm lint
+npm run lint
 ```
+
+## GitHub Pages
+
+This repo now includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml` that builds and deploys the site on every push to `main`.
+
+### One-time setup
+
+1. In GitHub, open **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Push to `main` (or run the workflow manually from the Actions tab).
+
+### Base path behavior
+
+- User/organization site repos like `username.github.io` deploy with `/`.
+- Project site repos deploy with `/<repo-name>/`.
+- You can override either case by setting `VITE_BASE_PATH` in workflow or local env.
 
 ## Project Structure
 

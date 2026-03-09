@@ -70,13 +70,14 @@ function writeCachedRepos(data: GithubRepo[]): void {
 export async function getGithubRepos(options: GetGithubReposOptions = {}): Promise<GithubRepo[]> {
   const { forceRefresh = false } = options;
   const cached = readCachedRepos();
+  const reposUrl = `${import.meta.env.BASE_URL}data/repos.json`;
 
   if (!forceRefresh && cached && Date.now() - cached.timestamp < CACHE_TTL_MS) {
     return cached.data;
   }
 
   try {
-    const response = await fetch('/data/repos.json', {
+    const response = await fetch(reposUrl, {
       cache: forceRefresh ? 'no-store' : 'default',
     });
 
