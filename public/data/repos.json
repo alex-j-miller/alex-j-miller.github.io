@@ -1,11 +1,19 @@
 [
   {
+    "name": "othello",
+    "description": null,
+    "html_url": "https://github.com/alex-j-miller/othello",
+    "stargazers_count": 1,
+    "language": "TypeScript",
+    "updated_at": "2026-04-13T07:00:06Z"
+  },
+  {
     "name": "alex-j-miller.github.io",
     "description": null,
     "html_url": "https://github.com/alex-j-miller/alex-j-miller.github.io",
     "stargazers_count": 1,
     "language": "TypeScript",
-    "updated_at": "2026-04-13T00:50:47Z"
+    "updated_at": "2026-04-13T06:55:12Z"
   },
   {
     "name": "classpilot",
