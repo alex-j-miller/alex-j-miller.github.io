@@ -1,11 +1,19 @@
 [
   {
+    "name": "alex-j-miller",
+    "description": "Config files for my GitHub profile.",
+    "html_url": "https://github.com/alex-j-miller/alex-j-miller",
+    "stargazers_count": 1,
+    "language": "Python",
+    "updated_at": "2026-07-15T02:10:23Z"
+  },
+  {
     "name": "alex-j-miller.github.io",
     "description": null,
     "html_url": "https://github.com/alex-j-miller/alex-j-miller.github.io",
     "stargazers_count": 1,
     "language": "TypeScript",
-    "updated_at": "2026-07-14T13:54:56Z"
+    "updated_at": "2026-07-14T19:25:50Z"
   },
   {
     "name": "othello",
@@ -30,14 +38,6 @@
     "stargazers_count": 0,
     "language": "JavaScript",
     "updated_at": "2026-02-05T18:54:43Z"
-  },
-  {
-    "name": "alex-j-miller",
-    "description": "Config files for my GitHub profile.",
-    "html_url": "https://github.com/alex-j-miller/alex-j-miller",
-    "stargazers_count": 1,
-    "language": null,
-    "updated_at": "2026-01-14T21:34:21Z"
   },
   {
     "name": "4p-chess",
