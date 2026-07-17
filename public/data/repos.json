@@ -1,19 +1,19 @@
 [
   {
-    "name": "alex-j-miller.github.io",
-    "description": null,
-    "html_url": "https://github.com/alex-j-miller/alex-j-miller.github.io",
-    "stargazers_count": 1,
-    "language": "TypeScript",
-    "updated_at": "2026-07-16T19:18:40Z"
-  },
-  {
     "name": "alex-j-miller",
     "description": "Config files for my GitHub profile.",
     "html_url": "https://github.com/alex-j-miller/alex-j-miller",
     "stargazers_count": 1,
     "language": "Python",
-    "updated_at": "2026-07-16T06:12:58Z"
+    "updated_at": "2026-07-17T06:11:00Z"
+  },
+  {
+    "name": "alex-j-miller.github.io",
+    "description": null,
+    "html_url": "https://github.com/alex-j-miller/alex-j-miller.github.io",
+    "stargazers_count": 1,
+    "language": "TypeScript",
+    "updated_at": "2026-07-17T03:12:00Z"
   },
   {
     "name": "othello",
